@@ -1,3 +1,90 @@
 body {
     font-family: "Sintony", sans-serif;
 }
+
+.openning {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(154, 53, 239, 1) 18%, rgba(75,0,196,1) 53%, rgba(65, 118,214, 1) 100%);
+}
+
+.openning img {
+    width: 420px;
+}
+
+.dark{
+    height: 90vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 50px 0;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 18%, rgba(64, 19, 122, 1) 53%, rgba(122, 19, 99,1) 100%);
+}
+
+
+.logotipo h1 {
+    color: white;
+    font-size: 48px;
+    margin-top: 30px;
+}
+
+.profiles {
+    display: flex;
+    gap: 50px;
+}
+.profile img {
+    border-radius: 100%;
+    cursor: pointer;
+}
+.profile img:hover{
+    outline: 4px solid #9E86FF;
+    border-radius: 100%;
+    box-sizing: border-box;
+    transition: all 0.3s linear;
+}
+
+.profiles h2{
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.add{
+    display:flex;
+    gap: 40px;
+}
+
+.btn-primary{
+    background-color: #60448E;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 100px;
+    border: none;
+    width: 200px;
+}
+
+.btn-primary:hover{
+    background-color: #9E86FF;
+    cursor: pointer;
+    transition: 0.2s linear;
+    transform: scale(1.02);
+}
+
+.manager a{
+    color: #9E86FF;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.manager a:hover{
+    text-decoration: underline;
+    transition: all 0.2s linear;
+}
